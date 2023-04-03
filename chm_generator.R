@@ -5,7 +5,7 @@ library(dplyr)
 library(sf)
 
 # Set local drive
-setwd("C:/Users/jvrap/OneDrive/Documents/Pachama")
+setwd("C:/Users/Pachama")
 
 #Load LiDAR data file
 las <- readLAS("ANAA01_L0002C0002.las")
