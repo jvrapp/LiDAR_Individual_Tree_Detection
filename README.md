@@ -4,7 +4,7 @@ This data science pet project utilizes LiDAR data to identify and count individu
 
 &nbsp;
 
-### Pet Project Objectives:
+### **Pet Project Objectives:**
 
 1. "Hello world" for LiDAR tree detection
 2. Learn LiDAR and Raster data handling and coordinate systems
@@ -12,7 +12,7 @@ This data science pet project utilizes LiDAR data to identify and count individu
 
 &nbsp;
 
-### Data Description:
+### **Data Description:**
 
 The data used for this project was provided by the Sustainable Landscapes GeoNetwork Catalog. The contained files are the following:
 1. [2018 LiDAR data](https://www.paisagenslidar.cnptia.embrapa.br/geonetwork/srv/por/catalog.search#/metadata/5119e5aa-ab6a-4bb8-a4b4-a3eff77fe564) collection for ANA_A01 region.
@@ -34,7 +34,20 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
 
 &nbsp;
 
-### Relevant Inisghts:
+### **Relevant Inisghts:**
+
+1. No linear correlation to be taken
+2. R made CHM's
+3. Sampled inventory data
 
 
-### Conclusions & Next Steps:
+### **Procedure Description:**
+
+1. Academic literature (Drive folder with papers) - Explain self taught
+2. Data Understanding
+3. CHM generation
+4. Local Maxima with Fixed Window Size application
+5. Individual Tree Detection Evaluation
+
+
+### Results, Conclusions & Next Steps:
