@@ -17,12 +17,11 @@ This data science pet project utilizes LiDAR data to identify and count individu
 The data used for this project was provided by the Sustainable Landscapes GeoNetwork Catalog. The contained files are the following:
 1. [2018 LiDAR data](https://www.paisagenslidar.cnptia.embrapa.br/geonetwork/srv/por/catalog.search#/metadata/5119e5aa-ab6a-4bb8-a4b4-a3eff77fe564) collection for ANA_A01 region.
 
-    *  Filename: ANAA01_L0002C0002.las / ANA_A01_2018_LAS_6.laz
-    *  Min Lat
-    *  Max Lat
-    *  Min Lon
-    *  Max Lon
-    *  CRS: EPSG-32721
+    *  **Filename:** ANAA01_L0002C0002.las / ANA_A01_2018_LAS_6.laz
+    *  **Latitude:** 721917.4 - 721917.4
+    *  **Longitude:** 9627871 - 9628871
+    *  **CRS:** EPSG-32721
+    *  **Density:** 28.85 points/units²
 
 2. [2018 Tree inventory](https://www.paisagenslidar.cnptia.embrapa.br/geonetwork/srv/spa/catalog.search#/metadata/44d96974-77b0-4e22-9fce-79609604bfd3) for ANA_A01 region. 
 
