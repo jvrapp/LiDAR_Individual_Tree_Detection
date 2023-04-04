@@ -23,9 +23,14 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
     *  **CRS:** EPSG-32721
     *  **Density:** 28.85 points/units²
 
-2. [2018 Tree inventory](https://www.paisagenslidar.cnptia.embrapa.br/geonetwork/srv/spa/catalog.search#/metadata/44d96974-77b0-4e22-9fce-79609604bfd3) for ANA_A01 region. 
+2. [2018 Tree inventory](https://www.paisagenslidar.cnptia.embrapa.br/geonetwork/srv/spa/catalog.search#/metadata/44d96974-77b0-4e22-9fce-79609604bfd3) for ANA_A01 region **(Ground Truth)**.
 
-    *AH 
+    * Descripción rápida
+    * Variables of interest:
+         * `htot`
+         * `RN`, `RS`, `RE`, `RW`: 
+         * `2015-18.dead`
+         * `UTM. Easting & Northing`: 
 
 3. [GeoJSON](https://www.paisagenslidar.cnptia.embrapa.br/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Aana_a01_2018_plot_location&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature&access_token=76f1f406d2ad11edb93d00163e1134a6) of sampled locations for tree data gathering. 
 
