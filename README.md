@@ -54,4 +54,13 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
 5. Individual Tree Detection Evaluation
 
 
-### Results, Conclusions & Next Steps:
+### **Results**:
+
+| Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
+| ----------- | :----:  | :----:  | :----:  |
+| 8     | 130       | 33 | 25.38%
+| 18   | Text        | |
+| 22  | Title       | |
+
+
+### Conclusions & Next Steps:
