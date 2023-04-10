@@ -1,5 +1,7 @@
 # LiDAR Individual Tree Detection
 
+> Approximate time invested 45 hours (from research to implementation)
+
 This data science pet project utilizes LiDAR data to identify and count individual trees in the ANA_A01 region of the Amazonian rainforest, using Python to implement Popescu Local Filtering with Fixed Window Size algorithm.
 
 &nbsp;
