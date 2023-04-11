@@ -95,11 +95,14 @@ After applying the Local Maxima with Fixed Window Size method to detect trees ac
 1. In academic research, this approach tends to have an accuracy between 0.6 to 0.8. However, this is **often applied in environments with a lower density of trees**, which allows for a clearer distinction between local maxima points and the rest.
 2. The **high species diversity and morphology variety**, combined with the high density of trees, makes it less accurate to distinguish individual trees using the Local Maxima approach.
 
+<p align="center">
+
 | Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
 | --------- | :-----------------:  | :------------:  | :------------:  |
 | 8         | 130                  | 33              | 25.38%          |
 | 18        | 110                  | 19              | 17.27%          |
 | 22        | 84                   | 20              | 23.81%          |
 
+</p>
 
 ## Conclusions & Next Steps:
