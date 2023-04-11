@@ -108,7 +108,7 @@ Nevertheless, here are the manually checked results.
 33 trees correctly identified out of 130
 
 <p align="center">
-<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone8_manual_evaluation.png width="450" height="550">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone8_manual_evaluation.png width="500" height="550">
 </p>
 
 ### **Results for Zone #18:** 
@@ -122,7 +122,7 @@ Nevertheless, here are the manually checked results.
 20 trees correctly identified out of 84
 
 <p align="center">
-<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone22_manual_evaluation.png width="450" height="550">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone22_manual_evaluation.png width="500" height="550">
 </p>
 
 ## Conclusions & Next Steps:
