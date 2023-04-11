@@ -79,7 +79,7 @@ Despite looking for a linear model fitted for a variable window size model, the 
 2. R made CHM's were generated with a 0.5 resolution, giving `.tif` file similar to the next one. 
 
 <p align="center">
-<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/R_CHM.jpg width="400" height="400">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/R_CHM.jpg width="600" height="400">
 </p>
 
 3. Within the ANA_A01 region there were multiple sampling locations for inventory data; still, for the purposes of this pet project, **just 3 sampling areas were selected to work with**, as shown below:
