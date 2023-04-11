@@ -61,14 +61,22 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
     * Fine tune parameters, specifically _window sizes_ for smoothening and filtering to obtain better results.
 
 5. Individual Tree Detection Evaluation:
-    * Manual evaluation
+    * Try to evaluate LM performance by applying the GeoPandas `.buffer()` over Ground Truth trees, then using the `.within()` function to check if detected trees are inside the Ground Truth buffered area.
+    * Manual evaluation: Plot the results of Detected Trees against Ground Truth Trees and manually evaluate the accuracy.
 
 
-### **Relevant Inisghts:**
+### **Relevant Inisghts & Considerations:**
 
-1. No linear correlation to be taken
-2. R made CHM's
-3. Sampled inventory data
+1. **No linear correlation between tree height and crown width to be taken:**
+Despite looking for a linear model fitted for a variable window size model, the Amazon Rainforest has such a great species variety that it was not possible to use the coefficients without oversimplifying, therefore facilitating misleading results.
+
+    The lack of a strong correlation is portrayed in the next graph:
+
+
+2. R made CHM's were generated with a 0.5 resolution
+3. Within the ANA_A01 region there were multiple sampling locations for inventory data; still, for the purposes of this pet project, **just 3 sampling areas were selected to work with**, as shown below:
+
+![Sampled Locations](/images/Sampled_locations.png "Sampled Locations")
 
 
 ### **Results**:
