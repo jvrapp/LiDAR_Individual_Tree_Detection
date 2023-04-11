@@ -33,13 +33,13 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
          * `2015-18.dead` - Trees labeled as dead in 2015 and 2018 inventory.
          * `UTM. Easting & Northing` - UTM Latitude and Longitude coordinates of each tree in inventory.
 
-3. [GeoJSON](https://www.paisagenslidar.cnptia.embrapa.br/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Aana_a01_2018_plot_location&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature&access_token=76f1f406d2ad11edb93d00163e1134a6) file containing the locations where tree data was gathered - The tree inventory was NOT conducted across the entire ANA_A01 region. Instead, data was collected from 32 sampled locations. The corresponding polygons are contained within this file. 
+3. [GeoJSON](https://www.paisagenslidar.cnptia.embrapa.br/geoserver/wfs?srsName=EPSG%3A4326&typename=geonode%3Aana_a01_2018_plot_location&outputFormat=json&version=1.0.0&service=WFS&request=GetFeature&access_token=76f1f406d2ad11edb93d00163e1134a6) file containing the locations where tree data was gathered - The tree inventory was **NOT** conducted across the entire ANA_A01 region. Instead, data was collected from 32 sampled locations. The corresponding polygons are contained within this file. 
 
 &nbsp;
 
 ### **Procedure Description (summary):**
 
-1. Academic literature (Drive folder with papers) - Explain self taught
+1. Academic literature research: As a self taught project 
 2. Data Understanding:
     * Inventory data
     * LAS data
@@ -66,10 +66,10 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
 Explicar el show de densidad y geometría
 
 | Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
-| ----------- | :----:  | :----:  | :----:  |
-| 8     | 130       | 33 | 25.38%
-| 18   | 19        | 110| 17.27%
-| 22  | 20       | 84 | 23.81%
+| --------- | :-----------------:  | :------------:  | :------------:  |
+| 8         | 130                  | 33              | 25.38%
+| 18        | 110                  | 19              | 17.27%
+| 22        | 84                   | 20              | 23.81%
 
 
 
