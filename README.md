@@ -126,3 +126,7 @@ Nevertheless, here are the manually checked results.
 </p>
 
 ## Conclusions & Next Steps:
+
+Applying the Local Maxima with Fixed Window Size to such a dense and biodiverse environment generates some serious challenges that, given the approach limitations, did not deliver good model performance.
+
+In order to increase the individual tree detection accuracy in this Amazonian region, it will be necessary to implement a different approach. Given the different challenges posed by the extremely biodiverse and dense enviorment, the [Layer Stacking approach](https://sci-hub.se/10.1080/07038992.2017.1252907), proposed by the Canadian Journal of Remote Sensing, could be an interesting next step. 
