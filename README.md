@@ -8,10 +8,9 @@ This data science pet project aims to utilize LiDAR data to identify and count i
 
 ### **Pet Project Objectives:**
 
-1. "Hello world" for LiDAR tree detection.
+1. "Hello world" for LiDAR data and forestry projects.
 2. Learn LiDAR/Raster data handling and the use of coordinate systems.
 3. Use GeoPandas and Rasterio for data manipulation
-
 
 ### **Data Description:**
 
@@ -39,19 +38,30 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
 
 ### **Procedure Description (summary):**
 
-1. Academic literature research: As a self taught project 
+1. Academic literature research: 
+    
+    As a self taught project, the first step was to conduct a thorough academic literature and software tools research on Individual Tree Detection (ITD) algorithms. 
+
 2. Data Understanding:
-    * Inventory data
-    * LAS data
-3. Canopy height Model (CHM) generation:
-    * Load and clip
-    * Height normalization
-    * Point to raster 
+
+    * _Inventory data:_   Count the number of inventoried trees and understand the recorded properties. Look for proportion correlations between height and crown width.
+    * _LAS data:_ Understand the contained information besides the datapoint cloud (metadata), and comprehend the coordinate system used.
+
+3. Canopy height Model (CHM) generation with `LidR`:
+    * Load `.las` and `.shp` files to clip the coordinates of the designated locations, with the function `clip_roi`.
+    * Height normalization: Normalize the digital terrain height by applying the  `tin` algorithm. 
+    * CHM generation: Apply the `raster_canopy` over the nomalized digital terrain model, using the `Point2Raster` algorithm. 
+
 4. Local Maxima with Fixed Window Size application:
-    * Prepare data
-    * Apply functions
-    * Fine tune parameters
-5. Individual Tree Detection Evaluation
+    * Prepare data by loading the `.tif` file and clipped Gound Truth data for further evaluation. 
+    * Apply functions (listed here some just of the main): 
+        1. CHM smoothening with `ndimage.median_filter`
+        2. Kernel generation with NumPy `np.ogrid` or `np.ones`
+        3. Local maxima filter with `ndimage.maximum_filter`
+    * Fine tune parameters, specifically _window sizes_ for smoothening and filtering to obtain better results.
+
+5. Individual Tree Detection Evaluation:
+    * Manual evaluation
 
 
 ### **Relevant Inisghts:**
@@ -67,9 +77,9 @@ Explicar el show de densidad y geometría
 
 | Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
 | --------- | :-----------------:  | :------------:  | :------------:  |
-| 8         | 130                  | 33              | 25.38%
-| 18        | 110                  | 19              | 17.27%
-| 22        | 84                   | 20              | 23.81%
+| 8         | 130                  | 33              | 25.38%          |
+| 18        | 110                  | 19              | 17.27%          |
+| 22        | 84                   | 20              | 23.81%          |
 
 
 
