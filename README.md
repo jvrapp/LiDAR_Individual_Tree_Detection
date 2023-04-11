@@ -104,11 +104,25 @@ After applying the Local Maxima with Fixed Window Size method to detect trees ac
 
 Nevertheless, here are the manually checked results.
 
-**Results for Zone #8:** 33 trees correctly identified out of 130
+### **Results for Zone #8:** 
+33 trees correctly identified out of 130
 
 <p align="center">
 <img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone8_manual_evaluation.png width="450" height="550">
 </p>
 
+### **Results for Zone #18:** 
+19 trees correctly identified out of 110
+
+<p align="center">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone18_manual_evaluation.png width="450" height="550">
+</p>
+
+### **Results for Zone #22:** 
+20 trees correctly identified out of 84
+
+<p align="center">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone22_manual_evaluation.png width="450" height="550">
+</p>
 
 ## Conclusions & Next Steps:
