@@ -61,8 +61,13 @@ The data used for this project was provided by the Sustainable Landscapes GeoNet
 | Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
 | ----------- | :----:  | :----:  | :----:  |
 | 8     | 130       | 33 | 25.38%
-| 18   | Text        | |
-| 22  | Title       | |
+| 18   | 19        | 110| 17.27%
+| 22  | 20       | 84 | 23.81%
 
+
+
+
+
+![Ejemplo CV 2](/img/Ejemplo_Cv_2.jpg "Ejemplo CV 2")
 
 ### Conclusions & Next Steps:
