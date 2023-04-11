@@ -95,7 +95,6 @@ After applying the Local Maxima with Fixed Window Size method to detect trees ac
 1. In academic research, this approach tends to have an accuracy between 0.6 to 0.8. However, this is **often applied in environments with a lower density of trees**, which allows for a clearer distinction between local maxima points and the rest.
 2. The **high species diversity and morphology variety**, combined with the high density of trees, makes it less accurate to distinguish individual trees using the Local Maxima approach.
 
-<div style="text-align:center">
 
 | Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
 | --------- | :-----------------:  | :------------:  | :------------:  |
@@ -103,6 +102,13 @@ After applying the Local Maxima with Fixed Window Size method to detect trees ac
 | 18        | 110                  | 19              | 17.27%          |
 | 22        | 84                   | 20              | 23.81%          |
 
-</div>
+Nevertheless, here are the manually checked results.
+
+**Results for Zone #8:** 33 trees correctly identified out of 130
+
+<p align="center">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Zone8_manual_evaluation.png width="450" height="550">
+</p>
+
 
 ## Conclusions & Next Steps:
