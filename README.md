@@ -77,9 +77,9 @@ Despite looking for a linear model fitted for a variable window size model, the 
 2. R made CHM's were generated with a 0.5 resolution
 3. Within the ANA_A01 region there were multiple sampling locations for inventory data; still, for the purposes of this pet project, **just 3 sampling areas were selected to work with**, as shown below:
 
-<div style="text-align:center">
+<p align="center">
 <img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Samped_locations.png width="400" height="500">
-</div>
+</p>
 
 ### **Results**:
 
