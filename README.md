@@ -90,7 +90,10 @@ Despite looking for a linear model fitted for a variable window size model, the 
 
 ### **Results**:
 
-Explicar el show de densidad y geometría
+After applying the Local Maxima with Fixed Window Size method to detect trees across the three different Canopy Height Models (CHMs), the recorded accuracy results were not the best. This may be explained by the following factors:
+
+1. In academic research, this approach tends to have an accuracy between 0.6 to 0.8. However, this is **often applied in environments with a lower density of trees**, which allows for a clearer distinction between local maxima points and the rest.
+2. The **high species diversity and morphology variety**, combined with the high density of trees, makes it less accurate to distinguish individual trees using the Local Maxima approach.
 
 | Zone      | Ground Truth # trees | LM correct trees| Overall Accuracy|
 | --------- | :-----------------:  | :------------:  | :------------:  |
