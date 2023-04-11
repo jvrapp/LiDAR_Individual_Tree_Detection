@@ -72,13 +72,15 @@ Despite looking for a linear model fitted for a variable window size model, the 
 
     The lack of a strong correlation is portrayed in the next graph:
 
-<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Correlation-height-crown.png width="500" height="500">
+<p align="center">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Correlation-height-crown.png width="400" height="400">
+</p>
 
 2. R made CHM's were generated with a 0.5 resolution
 3. Within the ANA_A01 region there were multiple sampling locations for inventory data; still, for the purposes of this pet project, **just 3 sampling areas were selected to work with**, as shown below:
 
 <p align="center">
-<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Samped_locations.png width="400" height="500">
+<img src=https://github.com/jvrapp/LiDAR_Individual_Tree_Detection/blob/main/images/Samped_locations.png width="450" height="550">
 </p>
 
 ### **Results**:
