@@ -6,15 +6,12 @@
 
 This data science pet project aims to utilize LiDAR data to identify and count individual trees in the ANA_A01 region of the Amazonian rainforest. The Popescu Local Filtering with Fixed Window Size algorithm will be implemented using Python.
 
-&nbsp;
-
 ### **Pet Project Objectives:**
 
 1. "Hello world" for LiDAR tree detection.
 2. Learn LiDAR/Raster data handling and the use of coordinate systems.
 3. Use GeoPandas and Rasterio for data manipulation
 
-&nbsp;
 
 ### **Data Description:**
 
